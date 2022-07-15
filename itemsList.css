@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: #dedede;
+    color: #333;
+    padding: 20px 0 28px 0;
+    margin: auto;
+  }
+  
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.data-setting {
+  padding: 20px;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.data-img {
+  float: left;
+  width: 40%;
+  margin-right: 15px;
+}
+
+.data-setting h3 {
+  margin: 0 0 6px 0;
+}
+
+.data-description {
+  font-size: 0.9rem;
+  color: #888;
+  vertical-align: middle;
+}
+
+@media screen and (max-width:576px){
+  .data-setting h3 {
+    font-size: 0.8rem;
+  }
+  .data-setting p{
+    font-size: 0.6rem;
+  }
+  .data-description {
+    font-size: 0.6rem;
+    color: black;
+    vertical-align: middle;
+  }
+}
+@media screen and (max-width:768px){
+  .data-setting h3 {
+    font-size: 0.9rem;
+  }
+  .data-setting p{
+    font-size: 0.7rem;
+  }
+  .data-description {
+    font-size: 0.7rem;
+    color: black;
+    vertical-align: middle;
+  }
+}
+@media screen and (max-width:99px){
+  .data-setting h3 {
+    font-size: 1rem;
+  }
+  .data-setting p{
+    font-size: 0.8rem;
+  }
+  .data-description {
+    font-size: 0.8rem;
+    color: black;
+    vertical-align: middle;
+  }
+}
